@@ -1,0 +1,45 @@
+{
+  "range": "1000-4999",
+  "metrics": {
+    "ttd": {
+      "invert": true,
+      "normal_lo": 520,
+      "normal_hi": 650,
+      "weight": 0.45,
+      "suspicious_if_lt": 460
+    },
+    "kd": {
+      "normal_lo": 1.5,
+      "normal_hi": 2.5,
+      "weight": 0.08
+    },
+    "wr": {
+      "normal_lo": 0.75,
+      "normal_hi": 0.92,
+      "weight": 0.07
+    },
+    "preaim": {
+      "invert": true,
+      "normal_lo": 7.3,
+      "normal_hi": 8.5,
+      "weight": 0.18,
+      "suspicious_if_lt": 2.0
+    },
+    "aim": {
+      "normal_lo": 65,
+      "normal_hi": 90,
+      "weight": 0.2,
+      "suspicious_if_gte": 98
+    },
+    "accHead": {
+      "normal_lo": 0.40,
+      "normal_hi": 0.65,
+      "weight": 0.02,
+      "percent": true
+    }
+  },
+  "chip_thresholds": {
+    "normal_max": 30,
+    "caution_max": 75
+  }
+}
